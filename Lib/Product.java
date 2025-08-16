@@ -1,5 +1,4 @@
 package Lib;
-
 /**
  * ADT ที่ไม่เปลี่ยนรูป (Immutable) สำหรับเก็บข้อมูลสินค้า
  * คลาสนี้เป็น final เพื่อป้องกันการสืบทอดและรับประกัน Immutability
@@ -81,4 +80,5 @@ public final class Product {
     public int hashCode() {
         return productId.hashCode();
     }
+
 }
